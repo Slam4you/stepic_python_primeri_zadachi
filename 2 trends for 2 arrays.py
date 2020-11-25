@@ -1,11 +1,15 @@
 import numpy as np
 
+
 def get_trend1(x, a1):
     y = a1[0] * x + a1[1]
     return y
+
+
 def get_trend2(x, a2):
     y = a2[0] * x**2 + a2[1] * x + a2[2]
     return y
+
 
 # x_array = np.array(input().split(), dtype = float)
 # h_array = np.array(input().split(), dtype = float)
